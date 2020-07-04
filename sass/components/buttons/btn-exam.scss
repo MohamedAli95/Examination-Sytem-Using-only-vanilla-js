@@ -1,0 +1,13 @@
+.btn{
+    background-color: $green-color;
+    color:  white;
+    padding: 0.5rem;
+    margin: 0 0.1rem 0 0.1rem ;
+    border-radius: 0.3rem;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    &:active{
+        transform: translateY(0.18rem);
+    }
+}

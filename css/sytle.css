@@ -1,0 +1,205 @@
+.forum__gen-radio input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  margin: 0; }
+
+.forum__gen-radio label[for="gender-female"], .forum__gen-radio label[for="gender-male"] {
+  display: inline-block;
+  width: 8rem;
+  height: 4rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  color: #b9b9b9;
+  line-height: 4rem; }
+
+.forum__gen-radio input:checked + label[for="gender-female"],
+.forum__gen-radio input:checked + label[for="gender-male"] {
+  background-color: #64ac15;
+  transition: all 0.4s;
+  color: white; }
+
+.submit-btn {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.4rem;
+  outline: none; }
+  .submit-btn:active {
+    transform: translateY(0.15rem); }
+
+.btn {
+  background-color: #64ac15;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 0.1rem 0 0.1rem;
+  border-radius: 0.3rem;
+  outline: none;
+  text-decoration: none;
+  border: none; }
+  .btn:active {
+    transform: translateY(0.18rem); }
+
+html {
+  font-size: 62.5%;
+  max-height: 100%;
+  scroll-behavior: smooth; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Arimo', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.form-input input[type=text]:focus {
+  outline: none;
+  border: 0.05rem solid #64ac15; }
+
+.form-input--lg input[type="text"] {
+  width: 40rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0.05rem solid #e5e5e5;
+  border-radius: 4px;
+  transition: all 0.3s; }
+
+.form-input--sm input[type="text"] {
+  width: 6rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 0.05rem solid #e5e5e5;
+  border-radius: 4px;
+  transition: all 0.3s; }
+
+.form-input__error {
+  color: red; }
+
+.form-container {
+  border: #64ac15 0.1rem solid;
+  border-radius: 0.4rem;
+  width: fit-content;
+  margin: 3% auto;
+  width: 80%;
+  box-shadow: 0rem 0rem 3rem 0rem #777777; }
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  margin-right: 13%; }
+  .form-main div {
+    margin-left: 3rem; }
+  .form-main__inputs-container {
+    display: flex; }
+    .form-main__inputs-container div {
+      margin-left: 0.2rem; }
+  .form-main h3 {
+    color: #64ac15;
+    margin: 0.5rem; }
+  .form-main .submit-btn {
+    margin-top: 4rem;
+    margin-left: 4rem; }
+  .form-main__wrapper {
+    margin-top: 2rem; }
+
+.exam {
+  border: #64ac15 0.1rem solid;
+  border-radius: 0.4rem;
+  width: 50%;
+  height: 30rem;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  box-shadow: 0rem 0rem 3rem 0rem #777777; }
+  .exam__question {
+    margin: 1rem 0 1rem 0;
+    font-size: 1.5rem; }
+  .exam__answers-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0; }
+  .exam__navigators {
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0; }
+
+.result {
+  width: 50%;
+  height: fit-content;
+  border: #64ac15 0.4rem solid;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .result__name {
+    font-size: 1.8rem;
+    padding: 1rem; }
+  .result__content {
+    font-size: 2rem;
+    margin: 1rem; }

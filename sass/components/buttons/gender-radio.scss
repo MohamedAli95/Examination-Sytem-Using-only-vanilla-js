@@ -1,0 +1,26 @@
+.forum__gen-radio{
+
+    input[type="radio"]{
+        opacity: 0;
+        width: 0;
+        margin: 0;
+    }
+
+    label[for="gender-female"],label[for="gender-male"]{
+        display: inline-block;
+        width: 8rem;
+        height: 4rem;
+        text-align: center;
+        background-color: #f9f9f9;
+        border: 1px solid #e5e5e5;
+        color: #b9b9b9;
+        line-height: 4rem;
+    }
+
+    input:checked + label[for="gender-female"] ,
+    input:checked + label[for="gender-male"] {
+        background-color: $green-color;
+        transition: all 0.4s;
+        color: white;
+    }
+}

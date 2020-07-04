@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/sytle.css" />
+    <title>Registration </title>
+  </head>
+  <body>
+    <div class="form-container">
+
+    
+      <form class="form-main" action="">
+        <div class="form-input form-input--lg">
+          <input type="text" placeholder="Full Name" id="full-name" />
+          <p class="form-input__error" id="error-fullname"></p>
+        </div>
+        <div class="form-input form-input--lg">
+          <input  type="text" placeholder="EmailAdress" id="email-adress"/>
+          <p class="form-input__error" id="error-email"></p>
+        </div>
+          <div class="form-main__wrapper">
+              <h3>Gender</h3>
+          <div class="form-main__inputs-container">
+            <div class="forum__gen-radio">
+            <input type="radio" name="gender" value="male" id="gender-male" />
+            <label for="gender-male">Male</label>
+          </div>
+          <div class="forum__gen-radio">
+            <input type="radio" name="gender" value="female" id="gender-female" />
+            <label for="gender-female">Female</label>
+          </div>
+          </div>
+          <p class="form-input__error" id="error-gender"></p>
+        </div>
+  
+          <div class="form-main__wrapper">
+            <h3>Date of Birth</h3>
+            <div class="form-main__inputs-container">
+              <div class="form-input form-input--sm">
+                <input type="text" placeholder="DD" id="dd"/>
+              </div>
+              <div class="form-input form-input--sm">
+                <input type="text" placeholder="MM" id="mm"/>
+              </div>
+              <div class="form-input form-input--sm">
+                <input type="text" placeholder="YYYY" id="yy"/>
+              </div>
+            </div>
+            <p class="form-input__error" id="error-age"></p>
+          </div>
+  
+        <div class="form-submit">
+            <button class="submit-btn" type="button">Submit</button>
+        </div>
+      </form>
+  </div>
+
+  <script type="module" src="./js/Registration/Registration-appController.js"></script>
+  </body>
+</html>

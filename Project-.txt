@@ -1,0 +1,13 @@
+registeration form:
+name,
+age ,
+email,
+gender
+
+query string from page to another page,
+
+emt7an:
+10 as2la hyt3rd mnhom 5 random ll user (multible choice);
+
+
+submit (msh byrg3)    next (momkn arg3lo) skip 

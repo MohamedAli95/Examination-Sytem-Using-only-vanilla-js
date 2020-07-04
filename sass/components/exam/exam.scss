@@ -1,0 +1,35 @@
+.exam {
+    border: $green-color 0.1rem solid;
+    border-radius: 0.4rem;
+    width: 50%;
+    height: 30rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    box-shadow: 0rem 0rem 3rem 0rem #777777;
+
+
+    &__question {
+        margin: 1rem 0 1rem 0;
+        font-size: 1.5rem;
+
+    }
+
+    &__answers-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 0 1rem 0;
+    }
+
+    &__navigators{
+        padding: 0.5rem;
+
+        margin: 1rem 0 1rem 0;
+
+    }
+
+}

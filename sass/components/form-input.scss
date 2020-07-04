@@ -1,0 +1,33 @@
+.form-input {
+    input[type=text]:focus {
+        outline: none;
+        border: 0.05rem solid $green-color;
+    }
+
+    &--lg{
+    input[type="text"] {
+        width: 40rem;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 0.05rem solid #e5e5e5;
+        border-radius: 4px;
+        transition: all 0.3s;
+    }
+    }
+
+    &--sm{
+        input[type="text"] {
+            width: 6rem;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 0.05rem solid #e5e5e5;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+    }
+ &__error{
+    color: red;
+ }
+}

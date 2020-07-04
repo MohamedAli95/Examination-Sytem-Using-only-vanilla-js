@@ -1,0 +1,21 @@
+.result{
+    width: 50%;
+    height: fit-content;
+    border: $green-color 0.4rem solid;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__name{
+           font-size: 1.8rem; 
+           padding: 1rem;
+    }
+
+    &__content{
+        font-size: 2rem; 
+        margin: 1rem;
+    }
+    
+}
